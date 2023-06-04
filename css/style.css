@@ -1,0 +1,58 @@
+html, body{
+    margin:0;
+    padding:0;
+    font-size: 35px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    border: 2px solid;
+    text-align: center;
+}
+
+#red{
+    background-image: url(https://media.istockphoto.com/id/487786861/pt/foto/p%C3%B4r-do-sol-ao-longo-do-pantanal-brasil-wetland.jpg?s=612x612&w=0&k=20&c=vbuSQdwFOEmtdtR2br2lJcTGGlYpM9p4sc0Ya5aiJbk=);
+}
+
+#orange{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3Bl1IzGlFCwBUEhHfLfBlhyfBmRuIKVjfPg&usqp=CAU); width: 300px;
+}
+
+#orange2{
+    background-image: linear-gradient(to bottom,rgb(255, 64, 0),rgb(232, 110, 28));
+}
+
+#yellow{
+    background-image: url(https://images.unsplash.com/photo-1542159919831-40fb0656b45a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHBvciUyMGRvJTIwc29sfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+}
+
+#greenf{
+    background-image: url(https://t4.ftcdn.net/jpg/01/14/24/43/240_F_114244324_HkVNU7BbaqHalaOfSUM4DjvwGygDEMRL.jpg);
+}
+
+#green{
+    background-image: linear-gradient(to bottom, rgb(232, 110, 28), rgb(211, 152, 70));
+}
+
+#blue{
+    background-image: url(https://images.unsplash.com/photo-1570997491915-47ade51fed9f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJpc2luZyUyMHN1bnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60) ;
+}
+
+#blues{
+    background-image: url(https://friendlystock.com/wp-content/uploads/2018/06/9-superhero-orange-cartoon-clipart.jpg);
+    
+}
+
+#bluesky{
+background-image:linear-gradient(to bottom, rgb(211, 152, 70),  rgb(207,170,102));
+}
